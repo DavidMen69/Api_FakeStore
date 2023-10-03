@@ -1,0 +1,240 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    /* Cambia la fuente según tus preferencias */
+}
+
+header {
+    text-align: center;
+    background-color: #ff5733;
+    /* Cambia el color de fondo del encabezado */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: white;
+    /* Cambia el color de la fuente en el encabezado */
+}
+
+header img {
+    max-width: 100px;
+    /* Ajusta el tamaño máximo del logotipo según tus necesidades */
+    margin-top: 10px;
+    /* Ajusta el margen superior del logotipo según tus necesidades */
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Estilos para los cards individuales */
+.card {
+    width: 15rem;
+    margin: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    /* Cambia el fondo del card según tus preferencias */
+}
+
+.card-img-top {
+    width: 60%;
+    height: 180px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin: 10px 0;
+    max-height: 100px;
+}
+
+.h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-Carrito {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-Carrito:hover {
+    background-color: #006632;
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    /* Cambia el color de fondo del pie de página según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto en el pie de página */
+    padding: 40px 0;
+    /* Ajusta el espaciado interior según tus necesidades */
+}
+
+.footer h4 {
+    font-size: 20px;
+    /* Tamaño de fuente para encabezados */
+    margin-bottom: 20px;
+    /* Espaciado inferior entre encabezados y contenido */
+}
+
+.footer p {
+    margin: 0;
+    /* Elimina los márgenes predeterminados para los párrafos */
+}
+
+.list-inline {
+    list-style: none;
+    /* Elimina los marcadores de lista */
+    padding: 0;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+    /* Espaciado entre elementos de lista en línea */
+    display: inline-block;
+    font-size: 35px;
+    /* Tamaño de fuente para íconos de redes sociales */
+}
+
+.list-inline-item a {
+    color: #fff;
+    /* Cambia el color de los íconos de redes sociales */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+}
+
+.list-inline-item a:hover {
+    color: #ff5733;
+    /* Cambia el color al pasar el mouse sobre los íconos de redes sociales */
+}
+
+/* Estilos para el mensaje de derechos de autor en el pie de página */
+.bottom-footer {
+    background-color: #222;
+    /* Cambia el color de fondo de la sección de derechos de autor */
+    padding: 10px 0;
+    /* Ajusta el espaciado interior según tus necesidades */
+    text-align: center;
+    /* Centra el texto en la sección de derechos de autor */
+}
+
+.bottom-footer p {
+    margin: 0;
+    /* Elimina los márgenes predeterminados para los párrafos en la sección de derechos de autor */
+    font-size: 14px;
+    /* Tamaño de fuente para el texto de derechos de autor */
+}
+
+
+/* Estilos para la parte superior de la página (top-bar) */
+.top-bar {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.contact-info,
+.user-actions {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.contact-info li,
+.user-actions li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    position: relative;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: whitesmoke; /* Color de texto para los elementos */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid whitesmoke; /* Borde alrededor de los elementos */
+    border-radius: 25px; /* Borde redondeado */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.user-actions a:hover {
+    background-color: #333; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color de texto al pasar el mouse */
+    text-decoration: none;
+}
+/* Estilos para el encabezado principal (main-header) */
+.main-header {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 1% ;
+}
+
+.main-header img {
+    max-width: 100px;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.search-form button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* Estilos para el enlace "Categorías" */
+.category-link {
+    text-decoration: none;
+    color: whitesmoke; /* Color de texto para los elementos */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid whitesmoke; /* Borde alrededor de los elementos */
+    border-radius: 25px; /* Borde redondeado */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.category-link:hover {
+    background-color: #333; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color de texto al pasar el mouse */
+    text-decoration: none;
+}
